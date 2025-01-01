@@ -147,13 +147,16 @@ create table law_documents (
 
 
 # There are 2 architecture. We will be focusing on the quick and easier one instead of making it customized fully.
-1. traditional acrhitecture
-2. simplified architecture
 
-we will be chosing 2.
-Here is the architecture of both:
+1. simplified architecture (we will choose this one)
+   
 ![image](https://github.com/user-attachments/assets/4bd8a17f-b96e-4cfe-b47f-dcf12f179d34)
+
+
+2. traditional architecture
+
 ![image](https://github.com/user-attachments/assets/3bfc8c4d-1327-4663-8690-2a87cc1fd552)
+
 
 
 
