@@ -1,0 +1,21 @@
+flowchart TD
+    subgraph Clients
+        A[Flutter Mobile] --> C[Supabase SDK]
+        B[React Web] --> C
+    end
+    
+    subgraph Supabase
+        C --> D[Supabase Auth]
+        C --> E[PostgreSQL]
+        C --> F[Edge Functions]
+    end
+    
+    subgraph AI Services
+        F --> G[OpenAI]
+        F --> H[Google STT/TTS]
+    end
+    
+    subgraph Storage
+        E --> I[Law Documents]
+        E --> J[User History]
+    end
