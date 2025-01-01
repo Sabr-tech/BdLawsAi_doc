@@ -1,0 +1,22 @@
+flowchart TD
+    subgraph Client
+        A[Web App] --> B[Node.js Backend]
+        C[Mobile App] --> B
+    end
+    
+    subgraph Backend
+        B --> D[Express Server]
+        D --> E[Controllers]
+        E --> F[Services]
+    end
+    
+    subgraph Database
+        F --> G[Supabase DB]
+        F --> H[Supabase Auth]
+    end
+    
+    subgraph External Services
+        F --> I[OpenAI]
+        F --> J[Google Cloud]
+        F --> K[Vector DB]
+    end
